@@ -1,4 +1,4 @@
-\# Emotion Detector
+\# Simple Interest Calculator
 
 
 
@@ -6,11 +6,41 @@
 
 
 
-This project is an AI-based Emotion Detector application developed using Python, Watson NLP, and Flask.
+This project is a simple interest calculator implemented using Bash.
 
 
 
-The application analyzes text and detects emotions such as anger, disgust, fear, joy, and sadness.
+\## Project Description
+
+
+
+The application accepts the principal amount, rate of interest, and time period from the user and calculates simple interest.
+
+
+
+\## Formula
+
+
+
+Simple Interest = (Principal × Rate × Time) / 100
+
+
+
+\## Technologies Used
+
+
+
+\- Bash
+
+\- Git
+
+\- GitHub
+
+\- GitHub Actions
+
+\- Tekton
+
+\- OpenShift Pipelines
 
 
 
@@ -18,15 +48,15 @@ The application analyzes text and detects emotions such as anger, disgust, fear,
 
 
 
-\- Emotion detection using Watson NLP
+\- Accepts principal amount as input
 
-\- Identification of dominant emotion
+\- Accepts rate of interest as input
 
-\- Flask web application
+\- Accepts time period in years
 
-\- Error handling for invalid input
+\- Calculates simple interest
 
-\- Unit testing
+\- Displays the calculated result
 
-\- Static code analysis
+\- Supports CI/CD automation
 
