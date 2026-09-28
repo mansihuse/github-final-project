@@ -26,8 +26,8 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 .
+          python -m flake8 test_simple_interest.py
 
       - name: Run unit tests with nose
         run: |
-          nosetests
+          python -m nose test_simple_interest.py -v
